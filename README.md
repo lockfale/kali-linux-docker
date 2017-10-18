@@ -16,7 +16,7 @@ Running
     
 or my preference is to run in background daemon mode and attach to it (so I can detach later)
 
-    docker run -itd lockfale/kali-linux-docker
+    docker run -p 443:443 -itd lockfale/kali-linux-docker
     docker ps |grep kali-linux-docker
     docker attach <container id>
 
